@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\tmccl\Desktop\Quant dev projects\LowLatencyExecutionEngine\build\CMakeFiles\06f93554965272fb5c07bcaa79225c47\RUN_TESTS_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{471EFF58-8421-35E1-B2CD-8A9BA0781547}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

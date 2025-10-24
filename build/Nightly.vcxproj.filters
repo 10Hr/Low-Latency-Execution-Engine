@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\tmccl\Desktop\Quant dev projects\LowLatencyExecutionEngine\build\CMakeFiles\3f198ab26f1d251e54d7af66f306fbd5\Nightly.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tmccl\Desktop\Quant dev projects\LowLatencyExecutionEngine\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\tmccl\Desktop\Quant dev projects\LowLatencyExecutionEngine\build\CMakeFiles\Nightly" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{471EFF58-8421-35E1-B2CD-8A9BA0781547}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

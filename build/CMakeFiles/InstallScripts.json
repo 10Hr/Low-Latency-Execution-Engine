@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/tmccl/Desktop/Quant dev projects/LowLatencyExecutionEngine/build/cmake_install.cmake",
+		"C:/Users/tmccl/Desktop/Quant dev projects/LowLatencyExecutionEngine/build/src/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
