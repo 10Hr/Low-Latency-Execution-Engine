@@ -2,11 +2,11 @@
 # If you choose not to use CMake, this file may be hand configured, by
 # filling in the required variables.
 
-cmake_minimum_required(VERSION 4.1.2)
+cmake_minimum_required(VERSION 4.1.1)
 
 # CTest Start Step
-set(CTEST_SOURCE_DIRECTORY "C:/Users/tmccl/Desktop/Quant dev projects/LowLatencyExecutionEngine")
-set(CTEST_BINARY_DIRECTORY "C:/Users/tmccl/Desktop/Quant dev projects/LowLatencyExecutionEngine/out/build/GCC")
+set(CTEST_SOURCE_DIRECTORY "C:/Users/tmccl/Desktop/Quant Dev Projects/LowLatencyExecutionEngine")
+set(CTEST_BINARY_DIRECTORY "C:/Users/tmccl/Desktop/Quant Dev Projects/LowLatencyExecutionEngine/out/build/GCC")
 
 # CTest Update Step
 set(CTEST_UPDATE_COMMAND "C:/Program Files/Git/cmd/git.exe")

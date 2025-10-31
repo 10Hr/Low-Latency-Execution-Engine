@@ -2,34 +2,34 @@
 <Site BuildName="Win32-mingw32-make"
 	BuildStamp="20251020-1410-Experimental"
 	Name="LAPTOP-A0NF3VFS"
-	Generator="ctest-4.1.2"
+	Generator="ctest-4.1.1"
 	CompilerName="C:/msys64/ucrt64/bin/g++.exe"
-	CompilerVersion="13.2.0"
+	CompilerVersion="15.2.0"
 	OSName="Windows"
-	Hostname="LAPTOP-A0NF3VFS"
-	OSRelease=" Personal"
-	OSVersion=" (Build 22631)"
+	Hostname="DESKTOP-TGNUNLK"
+	OSRelease=" Professional"
+	OSVersion=" (Build 19045)"
 	OSPlatform="AMD64"
 	Is64Bits="1"
 	VendorString="AuthenticAMD"
 	VendorID="Advanced Micro Devices"
 	FamilyID="15"
-	ModelID="4"
-	ModelName="AMD Ryzen 9 7940HS w/ Radeon 780M Graphics"
+	ModelID="1"
+	ModelName="AMD Ryzen 7 3700X 8-Core Processor"
 	ProcessorCacheSize="64"
 	NumberOfLogicalCPU="16"
 	NumberOfPhysicalCPU="8"
-	TotalVirtualMemory="28379"
-	TotalPhysicalMemory="15579"
+	TotalVirtualMemory="62788"
+	TotalPhysicalMemory="32697"
 	LogicalProcessorsPerPhysical="2"
-	ProcessorClockFrequency="4001"
+	ProcessorClockFrequency="3593"
 	>
 	<Testing>
-		<StartDateTime>Oct 24 09:24 Eastern Daylight Time</StartDateTime>
-		<StartTestTime>1761312263</StartTestTime>
+		<StartDateTime>Oct 31 10:29 Eastern Daylight Time</StartDateTime>
+		<StartTestTime>1761920975</StartTestTime>
 		<TestList/>
-		<EndDateTime>Oct 24 09:24 Eastern Daylight Time</EndDateTime>
-		<EndTestTime>1761312263</EndTestTime>
+		<EndDateTime>Oct 31 10:29 Eastern Daylight Time</EndDateTime>
+		<EndTestTime>1761920975</EndTestTime>
 		<ElapsedMinutes>0</ElapsedMinutes>
 	</Testing>
 </Site>

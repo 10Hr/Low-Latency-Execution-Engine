@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/tmccl/Desktop/Quant dev projects/LowLatencyExecutionEngine/src
+# Install script for directory: C:/Users/tmccl/Desktop/Quant Dev Projects/LowLatencyExecutionEngine/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Users/tmccl/Desktop/Quant dev projects/LowLatencyExecutionEngine/out/install/GCC")
+  set(CMAKE_INSTALL_PREFIX "C:/Users/tmccl/Desktop/Quant Dev Projects/LowLatencyExecutionEngine/out/install/GCC")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -40,6 +40,6 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/tmccl/Desktop/Quant dev projects/LowLatencyExecutionEngine/out/build/GCC/src/install_local_manifest.txt"
+  file(WRITE "C:/Users/tmccl/Desktop/Quant Dev Projects/LowLatencyExecutionEngine/out/build/GCC/src/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

@@ -56,10 +56,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\tmccl\Desktop\Quant dev projects\LowLatencyExecutionEngine"
+CMAKE_SOURCE_DIR = "C:\Users\tmccl\Desktop\Quant Dev Projects\LowLatencyExecutionEngine"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\tmccl\Desktop\Quant dev projects\LowLatencyExecutionEngine\out\build\GCC"
+CMAKE_BINARY_DIR = "C:\Users\tmccl\Desktop\Quant Dev Projects\LowLatencyExecutionEngine\out\build\GCC"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -96,9 +96,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\Users\tmccl\Desktop\QUANTD~1\LOWLAT~1\out\build\GCC && $(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\tmccl\Desktop\Quant dev projects\LowLatencyExecutionEngine\out\build\GCC\CMakeFiles" "C:\Users\tmccl\Desktop\Quant dev projects\LowLatencyExecutionEngine\out\build\GCC\src\\CMakeFiles\progress.marks"
+	cd /d C:\Users\tmccl\Desktop\QUANTD~1\LOWLAT~1\out\build\GCC && $(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\tmccl\Desktop\Quant Dev Projects\LowLatencyExecutionEngine\out\build\GCC\CMakeFiles" "C:\Users\tmccl\Desktop\Quant Dev Projects\LowLatencyExecutionEngine\out\build\GCC\src\\CMakeFiles\progress.marks"
 	cd /d C:\Users\tmccl\Desktop\QUANTD~1\LOWLAT~1\out\build\GCC && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\tmccl\Desktop\Quant dev projects\LowLatencyExecutionEngine\out\build\GCC\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\tmccl\Desktop\Quant Dev Projects\LowLatencyExecutionEngine\out\build\GCC\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -187,53 +187,53 @@ main.cpp.s:
 	cd /d C:\Users\tmccl\Desktop\QUANTD~1\LOWLAT~1\out\build\GCC && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\LowLatencyExecutionEngine.dir\build.make src/CMakeFiles/LowLatencyExecutionEngine.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-parser/MessageBuilder.obj: parser/MessageBuilder.cpp.obj
-.PHONY : parser/MessageBuilder.obj
+parsing/MessageBuilder.obj: parsing/MessageBuilder.cpp.obj
+.PHONY : parsing/MessageBuilder.obj
 
 # target to build an object file
-parser/MessageBuilder.cpp.obj:
-	cd /d C:\Users\tmccl\Desktop\QUANTD~1\LOWLAT~1\out\build\GCC && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\LowLatencyExecutionEngine.dir\build.make src/CMakeFiles/LowLatencyExecutionEngine.dir/parser/MessageBuilder.cpp.obj
-.PHONY : parser/MessageBuilder.cpp.obj
+parsing/MessageBuilder.cpp.obj:
+	cd /d C:\Users\tmccl\Desktop\QUANTD~1\LOWLAT~1\out\build\GCC && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\LowLatencyExecutionEngine.dir\build.make src/CMakeFiles/LowLatencyExecutionEngine.dir/parsing/MessageBuilder.cpp.obj
+.PHONY : parsing/MessageBuilder.cpp.obj
 
-parser/MessageBuilder.i: parser/MessageBuilder.cpp.i
-.PHONY : parser/MessageBuilder.i
+parsing/MessageBuilder.i: parsing/MessageBuilder.cpp.i
+.PHONY : parsing/MessageBuilder.i
 
 # target to preprocess a source file
-parser/MessageBuilder.cpp.i:
-	cd /d C:\Users\tmccl\Desktop\QUANTD~1\LOWLAT~1\out\build\GCC && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\LowLatencyExecutionEngine.dir\build.make src/CMakeFiles/LowLatencyExecutionEngine.dir/parser/MessageBuilder.cpp.i
-.PHONY : parser/MessageBuilder.cpp.i
+parsing/MessageBuilder.cpp.i:
+	cd /d C:\Users\tmccl\Desktop\QUANTD~1\LOWLAT~1\out\build\GCC && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\LowLatencyExecutionEngine.dir\build.make src/CMakeFiles/LowLatencyExecutionEngine.dir/parsing/MessageBuilder.cpp.i
+.PHONY : parsing/MessageBuilder.cpp.i
 
-parser/MessageBuilder.s: parser/MessageBuilder.cpp.s
-.PHONY : parser/MessageBuilder.s
+parsing/MessageBuilder.s: parsing/MessageBuilder.cpp.s
+.PHONY : parsing/MessageBuilder.s
 
 # target to generate assembly for a file
-parser/MessageBuilder.cpp.s:
-	cd /d C:\Users\tmccl\Desktop\QUANTD~1\LOWLAT~1\out\build\GCC && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\LowLatencyExecutionEngine.dir\build.make src/CMakeFiles/LowLatencyExecutionEngine.dir/parser/MessageBuilder.cpp.s
-.PHONY : parser/MessageBuilder.cpp.s
+parsing/MessageBuilder.cpp.s:
+	cd /d C:\Users\tmccl\Desktop\QUANTD~1\LOWLAT~1\out\build\GCC && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\LowLatencyExecutionEngine.dir\build.make src/CMakeFiles/LowLatencyExecutionEngine.dir/parsing/MessageBuilder.cpp.s
+.PHONY : parsing/MessageBuilder.cpp.s
 
-parser/MessageParser.obj: parser/MessageParser.cpp.obj
-.PHONY : parser/MessageParser.obj
+parsing/MessageParser.obj: parsing/MessageParser.cpp.obj
+.PHONY : parsing/MessageParser.obj
 
 # target to build an object file
-parser/MessageParser.cpp.obj:
-	cd /d C:\Users\tmccl\Desktop\QUANTD~1\LOWLAT~1\out\build\GCC && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\LowLatencyExecutionEngine.dir\build.make src/CMakeFiles/LowLatencyExecutionEngine.dir/parser/MessageParser.cpp.obj
-.PHONY : parser/MessageParser.cpp.obj
+parsing/MessageParser.cpp.obj:
+	cd /d C:\Users\tmccl\Desktop\QUANTD~1\LOWLAT~1\out\build\GCC && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\LowLatencyExecutionEngine.dir\build.make src/CMakeFiles/LowLatencyExecutionEngine.dir/parsing/MessageParser.cpp.obj
+.PHONY : parsing/MessageParser.cpp.obj
 
-parser/MessageParser.i: parser/MessageParser.cpp.i
-.PHONY : parser/MessageParser.i
+parsing/MessageParser.i: parsing/MessageParser.cpp.i
+.PHONY : parsing/MessageParser.i
 
 # target to preprocess a source file
-parser/MessageParser.cpp.i:
-	cd /d C:\Users\tmccl\Desktop\QUANTD~1\LOWLAT~1\out\build\GCC && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\LowLatencyExecutionEngine.dir\build.make src/CMakeFiles/LowLatencyExecutionEngine.dir/parser/MessageParser.cpp.i
-.PHONY : parser/MessageParser.cpp.i
+parsing/MessageParser.cpp.i:
+	cd /d C:\Users\tmccl\Desktop\QUANTD~1\LOWLAT~1\out\build\GCC && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\LowLatencyExecutionEngine.dir\build.make src/CMakeFiles/LowLatencyExecutionEngine.dir/parsing/MessageParser.cpp.i
+.PHONY : parsing/MessageParser.cpp.i
 
-parser/MessageParser.s: parser/MessageParser.cpp.s
-.PHONY : parser/MessageParser.s
+parsing/MessageParser.s: parsing/MessageParser.cpp.s
+.PHONY : parsing/MessageParser.s
 
 # target to generate assembly for a file
-parser/MessageParser.cpp.s:
-	cd /d C:\Users\tmccl\Desktop\QUANTD~1\LOWLAT~1\out\build\GCC && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\LowLatencyExecutionEngine.dir\build.make src/CMakeFiles/LowLatencyExecutionEngine.dir/parser/MessageParser.cpp.s
-.PHONY : parser/MessageParser.cpp.s
+parsing/MessageParser.cpp.s:
+	cd /d C:\Users\tmccl\Desktop\QUANTD~1\LOWLAT~1\out\build\GCC && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\LowLatencyExecutionEngine.dir\build.make src/CMakeFiles/LowLatencyExecutionEngine.dir/parsing/MessageParser.cpp.s
+.PHONY : parsing/MessageParser.cpp.s
 
 # Help Target
 help:
@@ -251,12 +251,12 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... parser/MessageBuilder.obj
-	@echo ... parser/MessageBuilder.i
-	@echo ... parser/MessageBuilder.s
-	@echo ... parser/MessageParser.obj
-	@echo ... parser/MessageParser.i
-	@echo ... parser/MessageParser.s
+	@echo ... parsing/MessageBuilder.obj
+	@echo ... parsing/MessageBuilder.i
+	@echo ... parsing/MessageBuilder.s
+	@echo ... parsing/MessageParser.obj
+	@echo ... parsing/MessageParser.i
+	@echo ... parsing/MessageParser.s
 .PHONY : help
 
 

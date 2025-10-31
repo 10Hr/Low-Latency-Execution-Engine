@@ -4,8 +4,8 @@
 
 
 # Configuration directories and files
-SourceDirectory: C:/Users/tmccl/Desktop/Quant dev projects/LowLatencyExecutionEngine
-BuildDirectory: C:/Users/tmccl/Desktop/Quant dev projects/LowLatencyExecutionEngine/out/build/GCC
+SourceDirectory: C:/Users/tmccl/Desktop/Quant Dev Projects/LowLatencyExecutionEngine
+BuildDirectory: C:/Users/tmccl/Desktop/Quant Dev Projects/LowLatencyExecutionEngine/out/build/GCC
 
 # Where to place the cost data store
 CostDataFile: 
@@ -27,7 +27,7 @@ SubmitInactivityTimeout:
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "C:/Program Files/CMake/bin/cmake.exe" "C:/Users/tmccl/Desktop/Quant dev projects/LowLatencyExecutionEngine"
+ConfigureCommand: "C:/Program Files/CMake/bin/cmake.exe" "C:/Users/tmccl/Desktop/Quant Dev Projects/LowLatencyExecutionEngine"
 MakeCommand: C:/Program\ Files/CMake/bin/cmake.exe --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 
@@ -64,7 +64,7 @@ UpdateType: git
 
 # Compiler info
 Compiler: C:/msys64/ucrt64/bin/g++.exe
-CompilerVersion: 13.2.0
+CompilerVersion: 15.2.0
 
 # Dynamic analysis (MemCheck)
 PurifyCommand: 

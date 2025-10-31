@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\tmccl\Desktop\Quant dev projects\LowLatencyExecutionEngine"
+CMAKE_SOURCE_DIR = "C:\Users\tmccl\Desktop\Quant Dev Projects\LowLatencyExecutionEngine"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\tmccl\Desktop\Quant dev projects\LowLatencyExecutionEngine\out\build\GCC"
+CMAKE_BINARY_DIR = "C:\Users\tmccl\Desktop\Quant Dev Projects\LowLatencyExecutionEngine\out\build\GCC"
 
 # Utility rule file for NightlyMemoryCheck.
 
@@ -84,6 +84,6 @@ CMakeFiles/NightlyMemoryCheck.dir/clean:
 .PHONY : CMakeFiles/NightlyMemoryCheck.dir/clean
 
 CMakeFiles/NightlyMemoryCheck.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\tmccl\Desktop\Quant dev projects\LowLatencyExecutionEngine" "C:\Users\tmccl\Desktop\Quant dev projects\LowLatencyExecutionEngine" "C:\Users\tmccl\Desktop\Quant dev projects\LowLatencyExecutionEngine\out\build\GCC" "C:\Users\tmccl\Desktop\Quant dev projects\LowLatencyExecutionEngine\out\build\GCC" "C:\Users\tmccl\Desktop\Quant dev projects\LowLatencyExecutionEngine\out\build\GCC\CMakeFiles\NightlyMemoryCheck.dir\DependInfo.cmake" "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\tmccl\Desktop\Quant Dev Projects\LowLatencyExecutionEngine" "C:\Users\tmccl\Desktop\Quant Dev Projects\LowLatencyExecutionEngine" "C:\Users\tmccl\Desktop\Quant Dev Projects\LowLatencyExecutionEngine\out\build\GCC" "C:\Users\tmccl\Desktop\Quant Dev Projects\LowLatencyExecutionEngine\out\build\GCC" "C:\Users\tmccl\Desktop\Quant Dev Projects\LowLatencyExecutionEngine\out\build\GCC\CMakeFiles\NightlyMemoryCheck.dir\DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : CMakeFiles/NightlyMemoryCheck.dir/depend
 

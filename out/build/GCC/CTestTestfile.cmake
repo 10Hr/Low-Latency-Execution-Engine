@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: C:/Users/tmccl/Desktop/Quant dev projects/LowLatencyExecutionEngine
-# Build directory: C:/Users/tmccl/Desktop/Quant dev projects/LowLatencyExecutionEngine/out/build/GCC
+# Source directory: C:/Users/tmccl/Desktop/Quant Dev Projects/LowLatencyExecutionEngine
+# Build directory: C:/Users/tmccl/Desktop/Quant Dev Projects/LowLatencyExecutionEngine/out/build/GCC
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

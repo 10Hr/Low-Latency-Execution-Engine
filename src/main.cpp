@@ -5,11 +5,14 @@
 #include <MessageBuilder.h>
 #include <WireOrder.h>
 #include <LatencyTracker.h>
+#include <atomic>
+#include "../include/templates/spsc_queue/SPSCQueue.h"
+#include <thread>
 
 
 int main() {
     
-    const int NUM_MESSAGES = 2'000'000;
+    const int NUM_MESSAGES = 20'000'001;
     MessageParser parser;
     LatencyTracker benchmarker;
     std::vector<Order> orders;
@@ -51,4 +54,5 @@ int main() {
 
     auto& latencyArr = parser.getTimestampList();
     benchmarker.analyzeLatencies(latencyArr, MessageParser::MAX_SAMPLES);
+
 }

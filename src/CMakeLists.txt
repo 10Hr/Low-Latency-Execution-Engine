@@ -1,8 +1,8 @@
 # Add the main executable
 add_executable(LowLatencyExecutionEngine
     main.cpp
-    parser/MessageParser.cpp
-    parser/MessageBuilder.cpp
+    parsing/MessageParser.cpp
+    parsing/MessageBuilder.cpp
     benchmarking/LatencyTracker.cpp
     # Add other .cpp files here if needed
 )

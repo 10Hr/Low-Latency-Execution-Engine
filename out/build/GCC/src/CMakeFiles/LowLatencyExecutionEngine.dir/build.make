@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\tmccl\Desktop\Quant dev projects\LowLatencyExecutionEngine"
+CMAKE_SOURCE_DIR = "C:\Users\tmccl\Desktop\Quant Dev Projects\LowLatencyExecutionEngine"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\tmccl\Desktop\Quant dev projects\LowLatencyExecutionEngine\out\build\GCC"
+CMAKE_BINARY_DIR = "C:\Users\tmccl\Desktop\Quant Dev Projects\LowLatencyExecutionEngine\out\build\GCC"
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/LowLatencyExecutionEngine.dir/depend.make
@@ -73,83 +73,83 @@ src/CMakeFiles/LowLatencyExecutionEngine.dir/codegen:
 
 src/CMakeFiles/LowLatencyExecutionEngine.dir/main.cpp.obj: src/CMakeFiles/LowLatencyExecutionEngine.dir/flags.make
 src/CMakeFiles/LowLatencyExecutionEngine.dir/main.cpp.obj: src/CMakeFiles/LowLatencyExecutionEngine.dir/includes_CXX.rsp
-src/CMakeFiles/LowLatencyExecutionEngine.dir/main.cpp.obj: C:/Users/tmccl/Desktop/Quant\ dev\ projects/LowLatencyExecutionEngine/src/main.cpp
+src/CMakeFiles/LowLatencyExecutionEngine.dir/main.cpp.obj: C:/Users/tmccl/Desktop/Quant\ Dev\ Projects/LowLatencyExecutionEngine/src/main.cpp
 src/CMakeFiles/LowLatencyExecutionEngine.dir/main.cpp.obj: src/CMakeFiles/LowLatencyExecutionEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\tmccl\Desktop\Quant dev projects\LowLatencyExecutionEngine\out\build\GCC\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/LowLatencyExecutionEngine.dir/main.cpp.obj"
-	cd /d C:\Users\tmccl\Desktop\QUANTD~1\LOWLAT~1\out\build\GCC\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/LowLatencyExecutionEngine.dir/main.cpp.obj -MF CMakeFiles\LowLatencyExecutionEngine.dir\main.cpp.obj.d -o CMakeFiles\LowLatencyExecutionEngine.dir\main.cpp.obj -c "C:\Users\tmccl\Desktop\Quant dev projects\LowLatencyExecutionEngine\src\main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\tmccl\Desktop\Quant Dev Projects\LowLatencyExecutionEngine\out\build\GCC\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/LowLatencyExecutionEngine.dir/main.cpp.obj"
+	cd /d C:\Users\tmccl\Desktop\QUANTD~1\LOWLAT~1\out\build\GCC\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/LowLatencyExecutionEngine.dir/main.cpp.obj -MF CMakeFiles\LowLatencyExecutionEngine.dir\main.cpp.obj.d -o CMakeFiles\LowLatencyExecutionEngine.dir\main.cpp.obj -c "C:\Users\tmccl\Desktop\Quant Dev Projects\LowLatencyExecutionEngine\src\main.cpp"
 
 src/CMakeFiles/LowLatencyExecutionEngine.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LowLatencyExecutionEngine.dir/main.cpp.i"
-	cd /d C:\Users\tmccl\Desktop\QUANTD~1\LOWLAT~1\out\build\GCC\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\tmccl\Desktop\Quant dev projects\LowLatencyExecutionEngine\src\main.cpp" > CMakeFiles\LowLatencyExecutionEngine.dir\main.cpp.i
+	cd /d C:\Users\tmccl\Desktop\QUANTD~1\LOWLAT~1\out\build\GCC\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\tmccl\Desktop\Quant Dev Projects\LowLatencyExecutionEngine\src\main.cpp" > CMakeFiles\LowLatencyExecutionEngine.dir\main.cpp.i
 
 src/CMakeFiles/LowLatencyExecutionEngine.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LowLatencyExecutionEngine.dir/main.cpp.s"
-	cd /d C:\Users\tmccl\Desktop\QUANTD~1\LOWLAT~1\out\build\GCC\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\tmccl\Desktop\Quant dev projects\LowLatencyExecutionEngine\src\main.cpp" -o CMakeFiles\LowLatencyExecutionEngine.dir\main.cpp.s
+	cd /d C:\Users\tmccl\Desktop\QUANTD~1\LOWLAT~1\out\build\GCC\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\tmccl\Desktop\Quant Dev Projects\LowLatencyExecutionEngine\src\main.cpp" -o CMakeFiles\LowLatencyExecutionEngine.dir\main.cpp.s
 
-src/CMakeFiles/LowLatencyExecutionEngine.dir/parser/MessageParser.cpp.obj: src/CMakeFiles/LowLatencyExecutionEngine.dir/flags.make
-src/CMakeFiles/LowLatencyExecutionEngine.dir/parser/MessageParser.cpp.obj: src/CMakeFiles/LowLatencyExecutionEngine.dir/includes_CXX.rsp
-src/CMakeFiles/LowLatencyExecutionEngine.dir/parser/MessageParser.cpp.obj: C:/Users/tmccl/Desktop/Quant\ dev\ projects/LowLatencyExecutionEngine/src/parser/MessageParser.cpp
-src/CMakeFiles/LowLatencyExecutionEngine.dir/parser/MessageParser.cpp.obj: src/CMakeFiles/LowLatencyExecutionEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\tmccl\Desktop\Quant dev projects\LowLatencyExecutionEngine\out\build\GCC\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/LowLatencyExecutionEngine.dir/parser/MessageParser.cpp.obj"
-	cd /d C:\Users\tmccl\Desktop\QUANTD~1\LOWLAT~1\out\build\GCC\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/LowLatencyExecutionEngine.dir/parser/MessageParser.cpp.obj -MF CMakeFiles\LowLatencyExecutionEngine.dir\parser\MessageParser.cpp.obj.d -o CMakeFiles\LowLatencyExecutionEngine.dir\parser\MessageParser.cpp.obj -c "C:\Users\tmccl\Desktop\Quant dev projects\LowLatencyExecutionEngine\src\parser\MessageParser.cpp"
+src/CMakeFiles/LowLatencyExecutionEngine.dir/parsing/MessageParser.cpp.obj: src/CMakeFiles/LowLatencyExecutionEngine.dir/flags.make
+src/CMakeFiles/LowLatencyExecutionEngine.dir/parsing/MessageParser.cpp.obj: src/CMakeFiles/LowLatencyExecutionEngine.dir/includes_CXX.rsp
+src/CMakeFiles/LowLatencyExecutionEngine.dir/parsing/MessageParser.cpp.obj: C:/Users/tmccl/Desktop/Quant\ Dev\ Projects/LowLatencyExecutionEngine/src/parsing/MessageParser.cpp
+src/CMakeFiles/LowLatencyExecutionEngine.dir/parsing/MessageParser.cpp.obj: src/CMakeFiles/LowLatencyExecutionEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\tmccl\Desktop\Quant Dev Projects\LowLatencyExecutionEngine\out\build\GCC\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/LowLatencyExecutionEngine.dir/parsing/MessageParser.cpp.obj"
+	cd /d C:\Users\tmccl\Desktop\QUANTD~1\LOWLAT~1\out\build\GCC\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/LowLatencyExecutionEngine.dir/parsing/MessageParser.cpp.obj -MF CMakeFiles\LowLatencyExecutionEngine.dir\parsing\MessageParser.cpp.obj.d -o CMakeFiles\LowLatencyExecutionEngine.dir\parsing\MessageParser.cpp.obj -c "C:\Users\tmccl\Desktop\Quant Dev Projects\LowLatencyExecutionEngine\src\parsing\MessageParser.cpp"
 
-src/CMakeFiles/LowLatencyExecutionEngine.dir/parser/MessageParser.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LowLatencyExecutionEngine.dir/parser/MessageParser.cpp.i"
-	cd /d C:\Users\tmccl\Desktop\QUANTD~1\LOWLAT~1\out\build\GCC\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\tmccl\Desktop\Quant dev projects\LowLatencyExecutionEngine\src\parser\MessageParser.cpp" > CMakeFiles\LowLatencyExecutionEngine.dir\parser\MessageParser.cpp.i
+src/CMakeFiles/LowLatencyExecutionEngine.dir/parsing/MessageParser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LowLatencyExecutionEngine.dir/parsing/MessageParser.cpp.i"
+	cd /d C:\Users\tmccl\Desktop\QUANTD~1\LOWLAT~1\out\build\GCC\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\tmccl\Desktop\Quant Dev Projects\LowLatencyExecutionEngine\src\parsing\MessageParser.cpp" > CMakeFiles\LowLatencyExecutionEngine.dir\parsing\MessageParser.cpp.i
 
-src/CMakeFiles/LowLatencyExecutionEngine.dir/parser/MessageParser.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LowLatencyExecutionEngine.dir/parser/MessageParser.cpp.s"
-	cd /d C:\Users\tmccl\Desktop\QUANTD~1\LOWLAT~1\out\build\GCC\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\tmccl\Desktop\Quant dev projects\LowLatencyExecutionEngine\src\parser\MessageParser.cpp" -o CMakeFiles\LowLatencyExecutionEngine.dir\parser\MessageParser.cpp.s
+src/CMakeFiles/LowLatencyExecutionEngine.dir/parsing/MessageParser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LowLatencyExecutionEngine.dir/parsing/MessageParser.cpp.s"
+	cd /d C:\Users\tmccl\Desktop\QUANTD~1\LOWLAT~1\out\build\GCC\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\tmccl\Desktop\Quant Dev Projects\LowLatencyExecutionEngine\src\parsing\MessageParser.cpp" -o CMakeFiles\LowLatencyExecutionEngine.dir\parsing\MessageParser.cpp.s
 
-src/CMakeFiles/LowLatencyExecutionEngine.dir/parser/MessageBuilder.cpp.obj: src/CMakeFiles/LowLatencyExecutionEngine.dir/flags.make
-src/CMakeFiles/LowLatencyExecutionEngine.dir/parser/MessageBuilder.cpp.obj: src/CMakeFiles/LowLatencyExecutionEngine.dir/includes_CXX.rsp
-src/CMakeFiles/LowLatencyExecutionEngine.dir/parser/MessageBuilder.cpp.obj: C:/Users/tmccl/Desktop/Quant\ dev\ projects/LowLatencyExecutionEngine/src/parser/MessageBuilder.cpp
-src/CMakeFiles/LowLatencyExecutionEngine.dir/parser/MessageBuilder.cpp.obj: src/CMakeFiles/LowLatencyExecutionEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\tmccl\Desktop\Quant dev projects\LowLatencyExecutionEngine\out\build\GCC\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/LowLatencyExecutionEngine.dir/parser/MessageBuilder.cpp.obj"
-	cd /d C:\Users\tmccl\Desktop\QUANTD~1\LOWLAT~1\out\build\GCC\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/LowLatencyExecutionEngine.dir/parser/MessageBuilder.cpp.obj -MF CMakeFiles\LowLatencyExecutionEngine.dir\parser\MessageBuilder.cpp.obj.d -o CMakeFiles\LowLatencyExecutionEngine.dir\parser\MessageBuilder.cpp.obj -c "C:\Users\tmccl\Desktop\Quant dev projects\LowLatencyExecutionEngine\src\parser\MessageBuilder.cpp"
+src/CMakeFiles/LowLatencyExecutionEngine.dir/parsing/MessageBuilder.cpp.obj: src/CMakeFiles/LowLatencyExecutionEngine.dir/flags.make
+src/CMakeFiles/LowLatencyExecutionEngine.dir/parsing/MessageBuilder.cpp.obj: src/CMakeFiles/LowLatencyExecutionEngine.dir/includes_CXX.rsp
+src/CMakeFiles/LowLatencyExecutionEngine.dir/parsing/MessageBuilder.cpp.obj: C:/Users/tmccl/Desktop/Quant\ Dev\ Projects/LowLatencyExecutionEngine/src/parsing/MessageBuilder.cpp
+src/CMakeFiles/LowLatencyExecutionEngine.dir/parsing/MessageBuilder.cpp.obj: src/CMakeFiles/LowLatencyExecutionEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\tmccl\Desktop\Quant Dev Projects\LowLatencyExecutionEngine\out\build\GCC\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/LowLatencyExecutionEngine.dir/parsing/MessageBuilder.cpp.obj"
+	cd /d C:\Users\tmccl\Desktop\QUANTD~1\LOWLAT~1\out\build\GCC\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/LowLatencyExecutionEngine.dir/parsing/MessageBuilder.cpp.obj -MF CMakeFiles\LowLatencyExecutionEngine.dir\parsing\MessageBuilder.cpp.obj.d -o CMakeFiles\LowLatencyExecutionEngine.dir\parsing\MessageBuilder.cpp.obj -c "C:\Users\tmccl\Desktop\Quant Dev Projects\LowLatencyExecutionEngine\src\parsing\MessageBuilder.cpp"
 
-src/CMakeFiles/LowLatencyExecutionEngine.dir/parser/MessageBuilder.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LowLatencyExecutionEngine.dir/parser/MessageBuilder.cpp.i"
-	cd /d C:\Users\tmccl\Desktop\QUANTD~1\LOWLAT~1\out\build\GCC\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\tmccl\Desktop\Quant dev projects\LowLatencyExecutionEngine\src\parser\MessageBuilder.cpp" > CMakeFiles\LowLatencyExecutionEngine.dir\parser\MessageBuilder.cpp.i
+src/CMakeFiles/LowLatencyExecutionEngine.dir/parsing/MessageBuilder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LowLatencyExecutionEngine.dir/parsing/MessageBuilder.cpp.i"
+	cd /d C:\Users\tmccl\Desktop\QUANTD~1\LOWLAT~1\out\build\GCC\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\tmccl\Desktop\Quant Dev Projects\LowLatencyExecutionEngine\src\parsing\MessageBuilder.cpp" > CMakeFiles\LowLatencyExecutionEngine.dir\parsing\MessageBuilder.cpp.i
 
-src/CMakeFiles/LowLatencyExecutionEngine.dir/parser/MessageBuilder.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LowLatencyExecutionEngine.dir/parser/MessageBuilder.cpp.s"
-	cd /d C:\Users\tmccl\Desktop\QUANTD~1\LOWLAT~1\out\build\GCC\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\tmccl\Desktop\Quant dev projects\LowLatencyExecutionEngine\src\parser\MessageBuilder.cpp" -o CMakeFiles\LowLatencyExecutionEngine.dir\parser\MessageBuilder.cpp.s
+src/CMakeFiles/LowLatencyExecutionEngine.dir/parsing/MessageBuilder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LowLatencyExecutionEngine.dir/parsing/MessageBuilder.cpp.s"
+	cd /d C:\Users\tmccl\Desktop\QUANTD~1\LOWLAT~1\out\build\GCC\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\tmccl\Desktop\Quant Dev Projects\LowLatencyExecutionEngine\src\parsing\MessageBuilder.cpp" -o CMakeFiles\LowLatencyExecutionEngine.dir\parsing\MessageBuilder.cpp.s
 
 src/CMakeFiles/LowLatencyExecutionEngine.dir/benchmarking/LatencyTracker.cpp.obj: src/CMakeFiles/LowLatencyExecutionEngine.dir/flags.make
 src/CMakeFiles/LowLatencyExecutionEngine.dir/benchmarking/LatencyTracker.cpp.obj: src/CMakeFiles/LowLatencyExecutionEngine.dir/includes_CXX.rsp
-src/CMakeFiles/LowLatencyExecutionEngine.dir/benchmarking/LatencyTracker.cpp.obj: C:/Users/tmccl/Desktop/Quant\ dev\ projects/LowLatencyExecutionEngine/src/benchmarking/LatencyTracker.cpp
+src/CMakeFiles/LowLatencyExecutionEngine.dir/benchmarking/LatencyTracker.cpp.obj: C:/Users/tmccl/Desktop/Quant\ Dev\ Projects/LowLatencyExecutionEngine/src/benchmarking/LatencyTracker.cpp
 src/CMakeFiles/LowLatencyExecutionEngine.dir/benchmarking/LatencyTracker.cpp.obj: src/CMakeFiles/LowLatencyExecutionEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\tmccl\Desktop\Quant dev projects\LowLatencyExecutionEngine\out\build\GCC\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/LowLatencyExecutionEngine.dir/benchmarking/LatencyTracker.cpp.obj"
-	cd /d C:\Users\tmccl\Desktop\QUANTD~1\LOWLAT~1\out\build\GCC\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/LowLatencyExecutionEngine.dir/benchmarking/LatencyTracker.cpp.obj -MF CMakeFiles\LowLatencyExecutionEngine.dir\benchmarking\LatencyTracker.cpp.obj.d -o CMakeFiles\LowLatencyExecutionEngine.dir\benchmarking\LatencyTracker.cpp.obj -c "C:\Users\tmccl\Desktop\Quant dev projects\LowLatencyExecutionEngine\src\benchmarking\LatencyTracker.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\tmccl\Desktop\Quant Dev Projects\LowLatencyExecutionEngine\out\build\GCC\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/LowLatencyExecutionEngine.dir/benchmarking/LatencyTracker.cpp.obj"
+	cd /d C:\Users\tmccl\Desktop\QUANTD~1\LOWLAT~1\out\build\GCC\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/LowLatencyExecutionEngine.dir/benchmarking/LatencyTracker.cpp.obj -MF CMakeFiles\LowLatencyExecutionEngine.dir\benchmarking\LatencyTracker.cpp.obj.d -o CMakeFiles\LowLatencyExecutionEngine.dir\benchmarking\LatencyTracker.cpp.obj -c "C:\Users\tmccl\Desktop\Quant Dev Projects\LowLatencyExecutionEngine\src\benchmarking\LatencyTracker.cpp"
 
 src/CMakeFiles/LowLatencyExecutionEngine.dir/benchmarking/LatencyTracker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LowLatencyExecutionEngine.dir/benchmarking/LatencyTracker.cpp.i"
-	cd /d C:\Users\tmccl\Desktop\QUANTD~1\LOWLAT~1\out\build\GCC\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\tmccl\Desktop\Quant dev projects\LowLatencyExecutionEngine\src\benchmarking\LatencyTracker.cpp" > CMakeFiles\LowLatencyExecutionEngine.dir\benchmarking\LatencyTracker.cpp.i
+	cd /d C:\Users\tmccl\Desktop\QUANTD~1\LOWLAT~1\out\build\GCC\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\tmccl\Desktop\Quant Dev Projects\LowLatencyExecutionEngine\src\benchmarking\LatencyTracker.cpp" > CMakeFiles\LowLatencyExecutionEngine.dir\benchmarking\LatencyTracker.cpp.i
 
 src/CMakeFiles/LowLatencyExecutionEngine.dir/benchmarking/LatencyTracker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LowLatencyExecutionEngine.dir/benchmarking/LatencyTracker.cpp.s"
-	cd /d C:\Users\tmccl\Desktop\QUANTD~1\LOWLAT~1\out\build\GCC\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\tmccl\Desktop\Quant dev projects\LowLatencyExecutionEngine\src\benchmarking\LatencyTracker.cpp" -o CMakeFiles\LowLatencyExecutionEngine.dir\benchmarking\LatencyTracker.cpp.s
+	cd /d C:\Users\tmccl\Desktop\QUANTD~1\LOWLAT~1\out\build\GCC\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\tmccl\Desktop\Quant Dev Projects\LowLatencyExecutionEngine\src\benchmarking\LatencyTracker.cpp" -o CMakeFiles\LowLatencyExecutionEngine.dir\benchmarking\LatencyTracker.cpp.s
 
 # Object files for target LowLatencyExecutionEngine
 LowLatencyExecutionEngine_OBJECTS = \
 "CMakeFiles/LowLatencyExecutionEngine.dir/main.cpp.obj" \
-"CMakeFiles/LowLatencyExecutionEngine.dir/parser/MessageParser.cpp.obj" \
-"CMakeFiles/LowLatencyExecutionEngine.dir/parser/MessageBuilder.cpp.obj" \
+"CMakeFiles/LowLatencyExecutionEngine.dir/parsing/MessageParser.cpp.obj" \
+"CMakeFiles/LowLatencyExecutionEngine.dir/parsing/MessageBuilder.cpp.obj" \
 "CMakeFiles/LowLatencyExecutionEngine.dir/benchmarking/LatencyTracker.cpp.obj"
 
 # External object files for target LowLatencyExecutionEngine
 LowLatencyExecutionEngine_EXTERNAL_OBJECTS =
 
 src/LowLatencyExecutionEngine.exe: src/CMakeFiles/LowLatencyExecutionEngine.dir/main.cpp.obj
-src/LowLatencyExecutionEngine.exe: src/CMakeFiles/LowLatencyExecutionEngine.dir/parser/MessageParser.cpp.obj
-src/LowLatencyExecutionEngine.exe: src/CMakeFiles/LowLatencyExecutionEngine.dir/parser/MessageBuilder.cpp.obj
+src/LowLatencyExecutionEngine.exe: src/CMakeFiles/LowLatencyExecutionEngine.dir/parsing/MessageParser.cpp.obj
+src/LowLatencyExecutionEngine.exe: src/CMakeFiles/LowLatencyExecutionEngine.dir/parsing/MessageBuilder.cpp.obj
 src/LowLatencyExecutionEngine.exe: src/CMakeFiles/LowLatencyExecutionEngine.dir/benchmarking/LatencyTracker.cpp.obj
 src/LowLatencyExecutionEngine.exe: src/CMakeFiles/LowLatencyExecutionEngine.dir/build.make
 src/LowLatencyExecutionEngine.exe: src/CMakeFiles/LowLatencyExecutionEngine.dir/linkLibs.rsp
 src/LowLatencyExecutionEngine.exe: src/CMakeFiles/LowLatencyExecutionEngine.dir/objects1.rsp
 src/LowLatencyExecutionEngine.exe: src/CMakeFiles/LowLatencyExecutionEngine.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\tmccl\Desktop\Quant dev projects\LowLatencyExecutionEngine\out\build\GCC\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable LowLatencyExecutionEngine.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\tmccl\Desktop\Quant Dev Projects\LowLatencyExecutionEngine\out\build\GCC\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable LowLatencyExecutionEngine.exe"
 	cd /d C:\Users\tmccl\Desktop\QUANTD~1\LOWLAT~1\out\build\GCC\src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\LowLatencyExecutionEngine.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -161,6 +161,6 @@ src/CMakeFiles/LowLatencyExecutionEngine.dir/clean:
 .PHONY : src/CMakeFiles/LowLatencyExecutionEngine.dir/clean
 
 src/CMakeFiles/LowLatencyExecutionEngine.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\tmccl\Desktop\Quant dev projects\LowLatencyExecutionEngine" "C:\Users\tmccl\Desktop\Quant dev projects\LowLatencyExecutionEngine\src" "C:\Users\tmccl\Desktop\Quant dev projects\LowLatencyExecutionEngine\out\build\GCC" "C:\Users\tmccl\Desktop\Quant dev projects\LowLatencyExecutionEngine\out\build\GCC\src" "C:\Users\tmccl\Desktop\Quant dev projects\LowLatencyExecutionEngine\out\build\GCC\src\CMakeFiles\LowLatencyExecutionEngine.dir\DependInfo.cmake" "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\tmccl\Desktop\Quant Dev Projects\LowLatencyExecutionEngine" "C:\Users\tmccl\Desktop\Quant Dev Projects\LowLatencyExecutionEngine\src" "C:\Users\tmccl\Desktop\Quant Dev Projects\LowLatencyExecutionEngine\out\build\GCC" "C:\Users\tmccl\Desktop\Quant Dev Projects\LowLatencyExecutionEngine\out\build\GCC\src" "C:\Users\tmccl\Desktop\Quant Dev Projects\LowLatencyExecutionEngine\out\build\GCC\src\CMakeFiles\LowLatencyExecutionEngine.dir\DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : src/CMakeFiles/LowLatencyExecutionEngine.dir/depend
 

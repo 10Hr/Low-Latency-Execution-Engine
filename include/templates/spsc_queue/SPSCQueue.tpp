@@ -1,8 +1,6 @@
 #pragma once
 #include "SPSCQueue.h"
 
-namespace spscqueue {
-
     template <typename T>
     SPSCQueue<T>::SPSCQueue(size_t capacity) : capacity_(capacity), head_(0), tail_(0) {
         if (capacity < 2 || (capacity & (capacity - 1)) != 0)
@@ -64,5 +62,3 @@ namespace spscqueue {
     size_t SPSCQueue<T>::capacity() const {
         return capacity_;
     }
-
-} // namespace spscqueue

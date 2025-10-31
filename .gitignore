@@ -1,0 +1,25 @@
+# Build and output directories
+build/
+out/
+
+# CMake files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Binaries
+*.exe
+*.out
+*.app
+*.dll
+*.so
+*.dylib
+
+# IDE/project files
+.vscode/
+.idea/
+*.user
+*.suo
+*.vcxproj*
+*.xcodeproj/
